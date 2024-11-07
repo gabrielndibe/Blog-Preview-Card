@@ -1,0 +1,96 @@
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (min-width: 375px) {
+  
+}
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+
+ --White: hsl(0, 0%, 100%);
+
+--Gray-500: hsl(0, 0%, 42%);
+ --Gray-950: hsl(0, 0%, 7%);
+}
+body {
+    background-color: var(--Yellow);
+    place-items: center;
+    text-align: center;
+    font-size: 0.9375rem;
+}
+html {
+    height: 100%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .shadow{
+    background-color: black;
+    width: 15.45rem;
+    height: 20rem;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Adjusts the position to center */
+    padding: 1rem;
+    border-radius: 0.5em;
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+  }
+  .main {
+   background-color: var(--White);
+   width: 15.5rem;
+   height: 20rem;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Adjusts the position to center */
+    padding: 1rem;
+    border-radius: 0.5em;
+  }
+  img {
+    display: block;
+    max-inline-size: 100%;
+  }
+  .article__img {
+    border-radius: 0.5em;
+  }
+  .learning {
+    background-color:hsl(47, 88%, 63%);
+    margin-top: 0.7rem;
+    width: 4rem;
+    padding: 1px;
+    border-radius:0.1em;
+  }
+  .learning > p {
+    font-weight: 700;
+    font-size: 0.7em;
+  }
+  .published {
+    margin-right: 8.9rem;
+    font-size: 0.7em;
+    margin-top: 0.7rem;
+  }
+  h1 {
+    font-size: 1em;
+    margin-top: 0.7rem;
+    margin-right: 4rem
+  }
+  .details { 
+     margin-right: 1px;
+     font-size: 0.9em;
+     padding: 1px;
+     margin-top: 0.7rem;
+    gap: 3rem;
+  }
+  .greg_img {
+    width: 25px;
+    margin-top: 1em;
+  }
+  .greg { 
+    font-weight: 800;
+    font-size: 11px;
+    margin-top: -16px;
+    margin-right: 7.3rem;
+  }
