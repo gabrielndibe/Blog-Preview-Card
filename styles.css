@@ -28,7 +28,7 @@ html {
   .shadow{
     background-color: black;
     width: 15.45rem;
-    height: 20rem;
+    height: 23rem;
    position: absolute;
     top: 50%;
     left: 50%;
@@ -41,7 +41,7 @@ html {
   .main {
    background-color: var(--White);
    width: 15.5rem;
-   height: 20rem;
+   height: 23rem;
    position: absolute;
     top: 50%;
     left: 50%;
